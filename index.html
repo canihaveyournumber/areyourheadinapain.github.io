@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Headache Checker</title>
+    <style>
+      body {
+        background-color: pink;
+      }
+      .container {
+        background-color: pink;
+        color: white;
+        text-align: center;
+        padding: 50px;
+      }
+      #yes-button {
+        background-color: white;
+        color: pink;
+        padding: 25px 35px;
+        border: none;
+        border-radius: 5px;
+        margin-right: 10px;
+        cursor: pointer;
+      }
+      #no-button {
+        background-color: white;
+        color: pink;
+        padding: 25px 35px;
+        border: none;
+        border-radius: 5px;
+        margin-left: 10px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Yesugen eee, your head still in a pain?</h1>
+      <div class="button-container">
+        <button onclick="navigate()" id="yes-button">Yes</button>
+        <button onclick="navigate2()" id="no-button">No</button>
+      </div>
+    </div>
+    <script>
+      function navigate() {
+        window.location.href = "get-well-soon.html";
+      }
+      function navigate2() {
+        window.location.href = "proud-of-you.html";
+      }
+    </script>
+  </body>
+</html>
